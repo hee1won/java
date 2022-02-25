@@ -47,6 +47,7 @@ public class C01Variable {
 		int var10;
 		var10 = 99;
 		System.out.println(var10);
+		
 	}
 
 }

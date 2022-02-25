@@ -1,4 +1,4 @@
-package chap02.book;
+package chap02.book02;
 
 public class B01VariavleExample {
 	public static void main(String[] args) {
