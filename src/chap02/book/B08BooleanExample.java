@@ -9,7 +9,5 @@ public class B08BooleanExample {
 		} else {
 			System.out.println("시작합니다.");		// 만약 stop가 false일 때 
 		}
-
 	}
-
 }

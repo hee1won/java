@@ -12,12 +12,13 @@ public class C04TypeInteger {
 		
 		// 정수
 		// byte, short, int, long
+		// 작은범위에서 큰범위로 옮기는것은 문제없이 가능하고, 큰범위에서 작은범위로 옮기는것은 데이터가 사라질 수 있어 위험을 감수해야 한다. 
 		
 		// 실수
 		// float, double
 		
 		// 논리
-		// boodlean
+		// boolean
 		
 		// 문자(정수)
 		// char
