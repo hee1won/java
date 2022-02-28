@@ -1,4 +1,4 @@
-package chap03.book03;
+package chap03.book;
 
 public class B01SignOperatorExample {
 
