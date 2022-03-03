@@ -17,8 +17,6 @@ public class B10SwitchStringExample {
 			System.out.println("300만원");
 			break;	
 		}
-		
-		
 
 	}
 
