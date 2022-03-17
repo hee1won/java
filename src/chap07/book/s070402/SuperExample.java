@@ -7,9 +7,9 @@ public class SuperExample {
 		
 		s.takeOff();	// 이륙합니다.
 		s.fly();	// 일반비행합니다.
-		s.flyModel = SonicAirplane.SUPER;
-		s.fly();	// 일반비행합니다.
-		s.flyModel = SonicAirplane.NOMAL;
+		s.flyModel = SonicAirplane.SUPER;	// 값을 초음속으로 바꿈.
+		s.fly();	// 초음속비행합니다.
+		s.flyModel = SonicAirplane.NOMAL;	// 값을 일반으로 다시 바꿈.
 		s.fly();	// 일반비행합니다.
 		s.land();	// 착륙합니다.
 		
