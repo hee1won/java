@@ -7,14 +7,14 @@ public class C01While {
 		System.out.println("stmt1");
 		int i = 0;
 		
-		while(i<3){
+		while(i<10){
 		System.out.println("stmt2");
 		System.out.println("stmt3");
 		
 		i++;
 		}
 		
-		System.out.println("stmt4");
+		System.out.println(i);
 	}
 
 }
