@@ -1,0 +1,31 @@
+package chap09.book.s090303;
+
+public class Outter {
+	// 자바 7 이전 
+	public void method1(final int arg) {
+		final int localVariable = 1;
+		// arg = 100;(x)	// final로 이미 초기값 지정 
+		// localVariable = 100 (x)	// 
+		
+		class Inner{
+			public void method() {
+				int result = arg + localVariable;
+			}
+		}
+		
+	}
+	
+	// 자바 8 이후 
+	public void method2(int arg) {
+		int localVariable = 1;
+		// arg = 100; (x)
+		// localVarible = 100; (x)
+		
+		class Inner{
+			public void method() {
+				int result = arg + localVariable;
+			}
+		}
+	}
+
+}
