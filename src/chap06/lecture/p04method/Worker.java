@@ -4,7 +4,7 @@ public class Worker {
 	
 	String name;
 
-	Worker(String name) {
+	public Worker(String name) {
 		this.name = name;
 	}
 	

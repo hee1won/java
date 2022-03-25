@@ -1,4 +1,4 @@
-package chap05.lecture;
+package chap05.lecture.array;
 
 public class C02EnhancedFor {
 
