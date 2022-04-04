@@ -23,6 +23,7 @@ public class App03 {
 		
 		Map<Integer, Integer> map2 = new HashMap<>();
 		int[] nums = {9, 8, 7, 7};
+		
 		/*
 		map2.compute(9, (k, v) -> v == null ? 1 : v + 1);
 		map2.compute(8, (k, v) -> v == null ? 1 : v + 1);
